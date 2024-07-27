@@ -4,6 +4,7 @@ CREATE DATABASE world;
 DROP TABLE IF EXISTS cities CASCADE;
 DROP TABLE IF EXISTS countries CASCADE;
 DROP TABLE IF EXISTS countrylanguages CASCADE;
+
 CREATE TABLE cities (
     id integer NOT NULL,
     name text NOT NULL,
